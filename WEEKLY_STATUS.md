@@ -1,151 +1,143 @@
-# Meeting Notes
+# Weekly Status
 
-**Meet Friday @ 3:30pm MT to go over database design**  
-[Event Link](https://discord.gg/fJEhfPQA?event=1344447589973491752)
+## 2/27/25
+# Agile Meeting Notes
 
-## What We Did
-- Documentation for contributions
-- Backend containers
-- Frontend template
-- Learning TypeScript / React
-- Outline of what the UI will look like:
-  - Splash page
-  - Main scene with avatar and tasks
-  - Tips to being productive (⁠brainstorming⁠)
-- Learning about the psychology of doing tasks, streaks
-- Thought about the rewards and how that affects the Taskagotchi
+## Pat
+- Documentation
+- Backend Install
+    - Docker stuff (see below)
+- PG Admin
+    - When starting up, use username/password of LOCAL machine
+- Next:
+    - Little more docker
+    - Start prepping for testing
 
-## What We're Doing for Next Time
-- Test the Docker backend / local installs
-- Test the front end, draft of the front end layout
-- Meet Friday to discuss initial database design
+## Noah
+- Boilerplate for frontend
+    - Instructions for setup
+- Next:
+    - More demo?
+    - Continue work with backend
+        - Make sure it works
+    - Let him know if things work!
 
+## John
+- Played around with React / Typescript
+- Next:
+    - Get docker working
+    - Make notes/status repo for milestone
 
-Agile Meeting
-- Pat
-    - Documentation
-    - Backend Install
-        - Docker stuff (see below)
-    - PG Admin
-        - when starting up, use username/password of LOCAL machine
-    - Next
-        - Little more docker
-        - Start prepping for testing
-        
-- Noah
-    - Boilerplate for drontend
-        - instructions for setup   
-    - Next:
-        - more demo?
-        - continue work with backend
-            - make sure it works
-        - let him know if things work!
-    
-- John
-    - played around with React / Typescript
-    - Next:
-        - Get docker working
-        - Make notes/status repo for milestone
+## Josh
+- Basic UI design finished
+- Looking for some psych resources about motivation / task completion
+- Started looking into database layout / relations
+    - Will work with whoever's interested to develop it further
+- Wrote down some ideas for the actual game's design
+- Next:
+    - Test out Pat's docker
+    - Push some issues to the board for group to vote on
+    - Upload meeting notes
 
-- Josh
-    - basic UI design finished
-    - looking for some psych resources about motivation / task completion
-    - started looking into databased layout / relations
-        - will work with whoever's interested to develop it further
-    - Wrote down some ideas for the actual game's design
-    - Next:
-        - Test out Pat's docker
-        - Push some issues to the board for group to vote on
-        - upload meeting notes 
+---
 
-Milestone 3: Weekly status
+## Milestone 3: Weekly Status
 - Snapshot of tool, add more commentary
     - Pat made the repo
 - John will do the stuff
 
-Database Docker
-- we may not need to log in
-- quick demo of how it works
-    - make up: spins up container
-    - make start: logs stuff
-    - make migrate: builds a "migrations", contians
+---
+
+## Database Docker
+- We may not need to log in
+- Quick demo of how it works:
+    - `make up`: spins up container
+    - `make start`: logs stuff
+    - `make migrate`: builds "migrations"
 - Contains most of the database stuff
-    - Postgres / PGadmin
-    - everything *should* sync, even though it's running locally
-    - conflicts?
-        - Changes to structure are transferred
-        - changes to actual are local only
-    - spin up test container, run it, then terminate it
-        - use "seed" file to prepare tests
+    - Postgres / PGAdmin
+    - Everything *should* sync, even though it's running locally
+- Conflicts?
+    - Changes to structure are transferred
+    - Changes to actual data are local only
+- Spin up test container, run it, then terminate it
+    - Use "seed" file to prepare tests
 
-Database Design
-- have another meeting sometime soon to go over design / relations
-- another meeting for database designs
-    - 3:30 p.m. M.T. on Friday 2/28
+---
 
-"Sideburn" Chart
+## Database Design
+- Have another meeting soon to go over design / relations
+- Another meeting for database designs:
+    - 3:30 p.m. MT on Friday 2/28
+
+---
+
+## "Sideburn" Chart
 - Create issues for ideas
-    - group can vote on will do / want to do / won't do
-    - If we will do it, create a ticket that people can claim and get working on it 
-    - for critical, MUST do things, just make the ticket and get 'er done
+    - Group can vote on "will do / want to do / won't do"
+    - If we will do it, create a ticket for people to claim
+    - For critical, MUST do things, just make the ticket and get it done
 
-UI Design
-- good start, something to work off of
-- check the excalidraw link, leave some notes / critiques
-- maybe 3 unique pages
-    - Splash page: what users see when not logged in
-    - Task page: React-based primary page
+---
+
+## UI Design
+- Good start, something to work off of
+- Check the Excalidraw link, leave notes / critiques
+- Maybe 3 unique pages:
+    - **Splash page:** What users see when not logged in
+    - **Task page:** React-based primary page
         - User avatar on game canvas (left) and task list (right)
-            - task list delineated by long term tasks and short-term / daily tasks       
-    - Motivation tips / blog page(?): Could be a fun extra thing 
-        - helps support the idea that we're trying to help people improve themselves
-    
-Game Design Discussion
-- Rewards
-    - completing tasks grants coins (or some other currency) that the user can spend on stuff
-        - new decorations, or customization for their avatar 
-        - could also be spent to help avatar with needs?
-    - Avatar energy also refills a bit when completing tasks
-        - more energy for long-term tasks?
-    
-- Task Categories
-    - Long-term
-        - Set specific time / date by which task should be completed
-        - User shouldn't be able to mark it as complete too soon after creation
-            - Probably shouldn't be able to create tasks with too soon a deadline either
-        - User can claim rewards up to (One day? Two days?) after deadline (?)
-            - maybe spend small amount of some currency to claim points late
-    - Short-term / Daily
-        - Simple "check-off" style tasks
-        - Smaller rewards
-        - For daily, user can claim rewards until 12 p.m. the following day 
-            - OR no leeway! Make them come back or lose the points!
-    - Custom tasks, or predetermined lists?
-        - Custom is preferred - there are lots and lots of potential tasks
-        - Could add some simple / common tasks to make the process easier
-- Task Difficulty
-    - Give more rewards based on a tasks difficulty?
-    - Preset / recommended, or user choice?
-        - may be better to let user could choose
-            - "difficulty" is different for everyone
-            - could select a smily face, frowny face, or neutral face when making the task
-- STREAKS
-    - more important than *anything* else
-    - extra rewards for maintaining a high streak
-- Task Linking
-    - link your "home"/avatar to another person(s)
-        - see them hanging out with your avatar
-    - completing tasks benefits both people
-    - see each other's lists?
-    
-Code Format
-- Important for when we all start writing code
-    - commits could get messy / annoying without a consistent style
-- Prettier 
-    - (the code formatter, not the statement)
-    - auto-formats everyones code to follow a consistent style
-    - not for Python?
-- There are some things that can auto-format when you push?
-    - also workflows that will 
+        - Task list split into long-term tasks and short-term / daily tasks
+    - **Motivation tips / blog page (optional):** Could support the self-improvement theme
+
+---
+
+## Game Design Discussion
+### Rewards
+- Completing tasks grants coins (or other currency) that can be spent on:
+    - New decorations/customization for avatar
+    - Helping avatar with needs
+- Avatar energy refills when completing tasks
+    - More energy for long-term tasks?
+
+### Task Categories
+- **Long-term**
+    - Specific time/date deadline
+    - User can't mark complete too soon
+    - Reward claim period after deadline (1-2 days?)
+    - Late claims could cost currency
+- **Short-term / Daily**
+    - Simple check-off tasks
+    - Smaller rewards
+    - Rewards claimable until noon the following day — or no leeway?
+- **Custom vs. Predefined Tasks**
+    - Custom preferred
+    - Add some simple/common tasks to help users get started
+
+### Task Difficulty
+- More rewards for harder tasks?
+- Preset/recommended vs. user-defined
+    - User-defined might be better (personalized difficulty)
+    - Choose with smiley/neutral/frowny face scale?
+
+### STREAKS
+- Extra important — rewards for maintaining high streaks
+
+### Task Linking
+- Link avatars to others
+    - See each other hanging out in-game
+    - Completing tasks benefits both
+    - Possibly view each other's task lists
+
+---
+
+## Code Format
+- Important for collaboration
+    - Consistent style to avoid messy commits
+- Use Prettier
+    - Auto-formats code to a consistent style
+    - Not for Python?
+- Possible auto-format on push?
+    - Workflows?
     - VS Code extension?
-    - just need a consensus
+    - Needs consensus
