@@ -3,7 +3,6 @@
 ## 2/27/25
 # Agile Meeting Notes
 
-
 ## Pat
 - Documentation
 - Backend Install
