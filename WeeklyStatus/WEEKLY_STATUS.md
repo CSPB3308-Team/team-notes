@@ -3,10 +3,23 @@
 ## 2/27/25
 # Agile Meeting Notes
 
+
+<img src="img/Project.png" alt="Under Construction" WIDTH=512 ALIGN="center" />
+
+
+
 ## Pat
 - Documentation
+
+<img src="img/backend_readme.png" alt="Under Construction" WIDTH=512 ALIGN="center" />
+
+
 - Backend Install
     - Docker stuff (see below)
+
+<img src="img/backend.png" alt="Under Construction" WIDTH=512 ALIGN="center" />
+
+
 - PG Admin
     - When starting up, use username/password of LOCAL machine
 - Next:
@@ -14,8 +27,14 @@
     - Start prepping for testing
 
 ## Noah
+
+<img src="img/frontend.png" alt="Under Construction" WIDTH=512 ALIGN="center" />
+
 - Boilerplate for frontend
     - Instructions for setup
+
+<img src="img/frontend_readme.png" alt="Under Construction" WIDTH=512 ALIGN="center" />
+
 - Next:
     - More demo?
     - Continue work with backend
@@ -30,6 +49,9 @@
 
 ## Josh
 - Basic UI design finished
+
+<img src="img/UI.png" alt="Under Construction" WIDTH=512 ALIGN="center" />
+
 - Looking for some psych resources about motivation / task completion
 - Started looking into database layout / relations
     - Will work with whoever's interested to develop it further
