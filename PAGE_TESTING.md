@@ -9,6 +9,10 @@
 - Store
 - Tips
 
+### A note on testing:
+
+Our frontend testing will look a bit different than that of a regular Flask app with server side rendering. Unlike the Python unittest tests in our backend, our TypeScript frontend tests will use Vitest and React Testing Library. Some of the main characteristics of this approach including testing individual components (to pinpoint bugs), mocking functions (so we don't call the real backend during unit testing), and simulating user interactions like clicking and typing (using userEvent from @testing-library/user-event). 
+
 ## Splash Page
 
 #### Route: `/` (root)
