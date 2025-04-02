@@ -435,6 +435,8 @@ This describes the Avatar table and how our routes interact with it. We have:
 - Update  
 - Delete  
 
+There is a Collections table that serves only as a lookup with GET functions. It only has three columns: id, item_id, item_cost and is utilized in the Avatar tests through relationships; such as pulling values from this table in order to place items on the Avatar. It will be FIXED to pre-seeded items only with no interactions other than lookups. 
+
 ---
 
 ## Get
