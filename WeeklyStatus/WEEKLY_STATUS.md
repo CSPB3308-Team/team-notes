@@ -181,3 +181,45 @@
 - Blog / Tips
 - Header
     - some way to have it on every page, without needing to manually add it to each route
+
+---
+
+# 3/05/25 
+
+## Agile Meeting
+### Pat
+  - rough task model
+  - playing with routes
+  - Next: 
+      - get task model done
+
+### John
+  - repos are set up
+  - Next:
+      - Unit tests for tasks 
+  - Blockers:  
+      - waiting for Pat to finish stuff
+
+### Josh
+  - Playing around more with react-three-fiber canvas stuff
+  - Next:
+      - push GameCanvas changes 
+      - finish / push a few basic customization options
+      - update README with react-three-fiber installation instructions
+      - look into animation stuff
+
+### Noah
+  - page testing
+  - working on design of our testing implementation
+  - made a few new tickets for task list things
+  - Next
+      - work on making a few hooks
+  - Blockers:
+      - we need a header design       
+      - needs some idea of what calls / responses will look like
+      - might need to rearrange some file structure stuff; make sure Josh pushes his changes
+
+## Splash page
+- get people's attention with some moving "bars"
+    - called a saccade
+    - could be made with some CSS animations / key frames 
