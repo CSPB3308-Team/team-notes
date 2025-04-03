@@ -225,6 +225,7 @@
     - could be made with some CSS animations / key frames 
 
 ---
+
 # 3/19/25
 ## Agile Meeting
 ### Josh
@@ -266,3 +267,58 @@
 - used in routes from utils
     - handles login / getting current user
 - jwt website to decode for testing purposes
+
+---
+
+# 4/02/25
+
+## Agile Meeting
+### Pat
+  - User mutation stuff
+      - create / update / delete users  
+  - Next:
+      - taskagotchi guy / shop stuff
+    
+### Josh
+  - Not much (spring break)
+  - Next:
+      - check out Pat's PR
+      - actually, for real add meeting notes 
+
+### John
+  - Not much (spring break)
+  - Next:
+      - Try to take on issues pull requests
+      - Maybe work on writing some tests
+        
+### Noah
+  - PR for task routes
+  - Blockers: 
+      - someone to confirm pull request
+        - Pat's got it!    
+  - Next:
+      - plan last three weeks of project
+      - SQL design
+
+## User DB Testing
+- "Create User" generates token 
+    - key / value pair in header
+- token required for updating / deleting user
+
+## OrbStack
+- replacement for docker desktop
+- just point docker stuff to it instead and everything should work!
+
+## To Do for MVP
+- user can change customization items
+    - needs a menu and some toggles
+- streak counter 
+    - Josh says he'll do it!
+- user page
+    - update info / password
+    - delete account
+        - with an "are you sure?" prompt
+- splash page
+    - create account / login
+- avatar
+    - get little guy in there
