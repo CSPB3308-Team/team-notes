@@ -1,5 +1,8 @@
 # SQL Testing
 
+Our backend is currently WIP and you can see the completed code [here](https://github.com/CSPB3308-Team/productivity-backend/blob/main/app/models.py)
+The rest can be found [here](https://github.com/CSPB3308-Team/productivity-backend/tree/main)
+
 # User
 The User table stores information about the user.
 
@@ -34,7 +37,7 @@ Unique
 
 The email address used to contact the user.
 
-## password_hash (???)
+## password_hash
 Data Type: varchar(255)
 Parameters: Required
 
@@ -223,7 +226,7 @@ If the user does not mark the task as completed by TaskDueDate, the value is set
 
 Whether or not the user marked the task as complete. If the user does not complete the task as complete before the due date, this value remains False.
 
-If the due date for a task has passed, the user can spend {currency} to renew the task up to 24 hours after the task has expired. Renewing a task changes TaskDueDate to {how long is the extension???} and marks this field as True. A task cannot be renewed again if this field is True.
+If the due date for a task has passed, the user can spend currency to renew the task up to 24 hours after the task has expired. Renewing a task changes TaskDueDate to 24 hours and marks this field as True. A task cannot be renewed again if this field is True.
 
 
 ## task_renewed
@@ -252,6 +255,13 @@ This describes the Tasks table and how our routes interact with it. We have:
 `/tasks`, method: GET, function: `get_tasks()`  
 
 **Description**: Get a user’s tasks  
+
+**Optional Parameters**:
+  - `/tasks` => Returns all tasks, all users
+  - `/tasks?user_id=1` => Returns tasks for user_id = 1
+  - `/tasks?task_complete=true` => returns completed
+  - `/tasks?task_type=short-term` => choose what type return
+  - `/tasks?task_complete=true&user_id=1` => we can also add combinations
 
 **Pre-conditions (what needs to be true about the system before the test can be applied)**:  
 There are tasks in the database associated with the user  
