@@ -1,11 +1,10 @@
 # Weekly Status
 
-## 2/27/25
+# 2/27/25
 
-# Agile Meeting Notes
+## Agile Meeting Notes
 
-## Pat
-
+### Pat
 - Documentation
 - Backend Install
   - Docker stuff (see below)
@@ -15,8 +14,7 @@
   - Little more docker
   - Start prepping for testing
 
-## Noah
-
+### Noah
 - Boilerplate for frontend
   - Instructions for setup
 - Next:
@@ -25,15 +23,13 @@
     - Make sure it works
   - Let him know if things work!
 
-## John
-
+### John
 - Played around with React / Typescript
 - Next:
   - Get docker working
   - Make notes/status repo for milestone
 
-## Josh
-
+### Josh
 - Basic UI design finished
 - Looking for some psych resources about motivation / task completion
 - Started looking into database layout / relations
@@ -44,18 +40,12 @@
   - Push some issues to the board for group to vote on
   - Upload meeting notes
 
----
-
 ## Milestone 3: Weekly Status
-
 - Snapshot of tool, add more commentary
   - Pat made the backend repo
 - John will do the stuff
 
----
-
 ## Database Docker
-
 - We may not need to log in
 - Quick demo of how it works:
   - `make up`: spins up container
@@ -70,27 +60,18 @@
 - Spin up test container, run it, then terminate it
   - Use "seed" file to prepare tests
 
----
-
 ## Database Design
-
 - Have another meeting soon to go over design / relations
 - Another meeting for database designs:
   - 3:30 p.m. MT on Friday 2/28
 
----
-
 ## "Sideburn" Chart
-
 - Create issues for ideas
   - Group can vote on "will do / want to do / won't do"
   - If we will do it, create a ticket for people to claim
   - For critical, MUST do things, just make the ticket and get it done
 
----
-
 ## UI Design
-
 - Good start, something to work off of
 - Check the Excalidraw link, leave notes / critiques
 - Maybe 3 unique pages:
@@ -100,12 +81,9 @@
     - Task list split into long-term tasks and short-term / daily tasks
   - **Motivation tips / blog page (optional):** Could support the self-improvement theme
 
----
-
 ## Game Design Discussion
 
 ### Rewards
-
 - Completing tasks grants coins (or other currency) that can be spent on:
   - New decorations/customization for avatar
   - Helping avatar with needs
@@ -113,7 +91,6 @@
   - More energy for long-term tasks?
 
 ### Task Categories
-
 - **Long-term**
   - Specific time/date deadline
   - User can't mark complete too soon
@@ -128,27 +105,21 @@
   - Add some simple/common tasks to help users get started
 
 ### Task Difficulty
-
 - More rewards for harder tasks?
 - Preset/recommended vs. user-defined
   - User-defined might be better (personalized difficulty)
   - Choose with smiley/neutral/frowny face scale?
 
 ### STREAKS
-
 - Extra important — rewards for maintaining high streaks
 
 ### Task Linking
-
 - Link avatars to others
   - See each other hanging out in-game
   - Completing tasks benefits both
   - Possibly view each other's task lists
 
----
-
 ## Code Format
-
 - Important for collaboration
   - Consistent style to avoid messy commits
 - Use Prettier
@@ -158,3 +129,55 @@
   - Workflows?
   - VS Code extension?
   - Needs consensus
+
+---
+
+# 3/05/25 
+
+## Agile Meeting
+### Noah
+  - made task page skeleton
+  - reviewed backend testing stuff with Pat
+  - Next: 
+      - front end testing        
+  - Blockers:
+      - need to consider what other pages we want as a group
+        
+### Josh
+  - got back end and front end up and running on local machine
+  - merged Noah's task page skeleton
+      - made a new branch for implementing the game canvas      
+  - playing around with react-three-fiber to figure out how to implement it
+      - extra limitations on top of React's limitations       
+
+  - Next:
+      - get basic canvas implemented
+      - maybe a basic avatar / simple customizations
+    
+### John
+  - got front end and back end up and running on local machine
+  - playing with SQL / flask database
+  
+  - Next:
+      - Learn more about React
+    
+### Pat 
+  - getting tests setup for backend
+      - similar to what we did in SQL lab
+      
+  - Next:
+      - get task model ready
+      - potentially start getting routes ready as well     
+
+- some Rando forked the frontend repo?        
+        
+## Webpage Discussion
+- (check the Excalidraw for more details)
+- Splash Page
+- Task Page / Game
+- User Page 
+- Shop
+- About?
+- Blog / Tips
+- Header
+    - some way to have it on every page, without needing to manually add it to each route
