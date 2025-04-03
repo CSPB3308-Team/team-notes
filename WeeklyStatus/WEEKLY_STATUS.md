@@ -223,3 +223,46 @@
 - get people's attention with some moving "bars"
     - called a saccade
     - could be made with some CSS animations / key frames 
+
+---
+# 3/19/25
+## Agile Meeting
+### Josh
+  - Animations
+  - Basic customization items
+  - customization item menu
+  - Next:
+      - PUSH MEETING NOTES TO THE REPO
+  - Blockers:
+      - Time 
+
+### Noah
+  - Basic tasks display
+  - Reviews / project management 
+      - checking issues
+      - handling pull requests with Pat
+  - Next:
+      - Interactions for task routes
+          - writing to the database
+  - Blockers:
+      - Maybe more design / style questions 
+       
+### Pat
+  - Reviewed Noah's PRs
+  - fleshed out user model
+      - more like "final" design
+  - Basic login page / auth
+      - and cookie storing
+  - basic task routes
+  - Next:
+      - basic user routes
+    
+## Backend Testing
+- Bruno?
+    - Pat likes this option!
+- give it URL, GET / POST stuff
+
+## Cookie Stuff
+- used in routes from utils
+    - handles login / getting current user
+- jwt website to decode for testing purposes
