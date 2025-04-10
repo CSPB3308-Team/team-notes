@@ -322,3 +322,105 @@
     - create account / login
 - avatar
     - get little guy in there
+---
+
+# 4/09/25
+
+## Agile Meeting
+### Pat
+- Avatar / Customization item models
+- Updating seed files to make associations
+- Next: 
+    - Routes for these
+    - Ledgder / transaction table
+- Blockers:
+    - Time
+
+### Joshua 
+- Merged Pat's PR
+    - Figured out how backend worked with Pat's help
+- Looked at Noah's PR
+    - everything good, just need to confirm testing 
+- Next: 
+    - Finish up avatar stuff
+        - let him know if there's anything we need!
+    - Fix tasks stuff so only current user tasks are shown
+        - already fixed, just want team to look at it
+- Blockers:
+    - Life
+
+### John
+- Automation things
+    - getting tests setup
+- Next: 
+    - clean up automation stuff, get it all in
+    - Maybe video thing?
+- Blockers:
+    - Life
+  
+### Noah
+- Login / SignUp routes
+- Issue for account page
+- Next:
+    - Account page 
+- Blocker:
+    - login / signup PR
+    - we need to plan some layout things 
+
+## Professor Meeting
+- Scheduled for: Tuesday, April 22 at 2:00 p.m. M.T  
+
+## Planning Stuff / Questions
+- Not a lot of time left!
+    - Try to be done / deploy by April 18th?
+
+- What left for MVP?
+    - Transactions
+        - What items do users have?
+        
+    - Currency
+        - Give users currency for completing tasks 
+        
+    - Avatar
+        - Change customization items
+            - Get the system in place!
+        - Manage energy
+            - Energy changes as tasks are completed
+            - Face change as energy gets low?
+                   
+    - Routes
+        - Account management
+        - Nav Bar
+        - Redirect to login if user is not logged in
+            - or shuffle pages?
+            
+    - Streak Counter (low-priority)
+        - How to calculate?
+            - Simple-ish SQL command
+            - Can back-calculate, or store a value for the streak being valid?
+        
+- What kind of testing?
+    - Some Backend, need more Frontend
+    - John and Pat can bang out what we need
+    
+- Styling
+    - Can take a long time?
+    - Once we get everything / most stuff in, Josh can pivot to figuring out styling
+    
+- Deployments
+    - could be smooth, but may be issues?
+    - Best not to save for the end?
+    
+- Report / Video
+    - make some time to rehearse / figure out 
+
+## Timeline
+- On April 16: Regular Meeting
+- By April 17: Final Features / Implementations 
+- By April 18: Styling
+- By April 18: Deployment
+- By April 21: Meeting for Presentation
+- By April 22: Final Testing / Proof
+- On April 22: Presentation
+- On April 23: Final Meeting
+- By April 24: Project Report
