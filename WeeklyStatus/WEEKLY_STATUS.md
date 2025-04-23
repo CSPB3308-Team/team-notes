@@ -424,3 +424,67 @@
 - On April 22: Presentation
 - On April 23: Final Meeting
 - By April 24: Project Report
+
+---
+
+# 4/16/25
+
+## Agile Meeting
+### Pat
+  - Finished backend
+  - fixed bug with deleting user accounts
+  - avatar / wallet / customization stuff
+      - "added capitalism"
+  - messing around with bootstrapping UI stuff
+  - Next:
+      - streak counter!
+  - Blockers:
+      - None
+
+### Josh
+  - new model
+      - no longer little pill man
+  - inventory preview 
+      - see lists of customization items
+      - see them on character in inventory
+  - Next:
+      - Avatar energy bar
+          - and linking to task completion
+      - Final customization assets
+          - textures / shaders
+      - Stretch goals
+          - Simple animations for Avatar
+          - Basic game sounds
+              - For completing / removing tasks, Avatar mood, etc.
+  - Blockers: None
+        
+### John
+  - fixed environment
+  - reviewed Pat's PR
+  - Next:
+      - tackling backlogged issues
+      - tests
+  - Blockers:
+    - Time
+    - 
+### Noah
+  - Account page
+  - Reviewed PRs
+  - Header bar / nav stuff
+  - Fixed issue with stale user tokens
+  - Next:
+      - frontend testing / deployment
+  - Blockers:
+    - Time
+
+## Presentation Prep Meeting
+- Monday 12:00?
+
+## Task Rewards
+- Daily: 1
+- Short: 5
+- Long: 10
+- But multiplied by current streak
+
+## Deployment
+- Friday?
