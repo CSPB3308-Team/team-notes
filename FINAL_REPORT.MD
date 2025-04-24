@@ -19,7 +19,7 @@ Patrick Brown - John Gaynes - Noah Kawaguchi - Joshua Peters
 - SQL_TESTING.md [https://github.com/CSPB3308-Team/team-notes/blob/main/SQL_TESTING.md](https://github.com/CSPB3308-Team/team-notes/blob/main/SQL_TESTING.md)
 - FINAL_REPORT.md (you are here)
 - **Project presentation files from Presentation Milestone** [https://docs.google.com/presentation/d/1k3BHlx9xJky64LwpZdHXqylh_8QBb_3Ghke61H-Ont4/edit?usp=sharing](https://docs.google.com/presentation/d/1k3BHlx9xJky64LwpZdHXqylh_8QBb_3Ghke61H-Ont4/edit?usp=sharing)
-- **Video of demo**
+- **Video of demo** : https://youtu.be/-gKoEfC_2_c
 - **Source code**
   - **Frontend**: [https://github.com/CSPB3308-Team/productivity-frontend](https://github.com/CSPB3308-Team/productivity-frontend)
   - **Backend**: [https://github.com/CSPB3308-Team/productivity-backend](https://github.com/CSPB3308-Team/productivity-backend)
